@@ -13,8 +13,9 @@
     "lib": ["es2017", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
-    "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-graph-bug/my-lib": ["../../../libs/my-lib/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
